@@ -1,0 +1,18 @@
+/* flex container */
+#container {
+    display: flex;
+    /* gap: 10px; */
+    /* flex-direction: row; */ /*row (default), row-reverse, column, column-reverse */
+    /* justify-content: space-around; */ /* flex-start (default), flex-end, center, space-between, space-around, space-evenly */
+    flex-wrap: wrap; /* nowrap (default), wrap, wrap-reverse */
+    position: relative; /* static, relative, fixed, absolute */
+    left: 20px;
+    border: 1px solid green;
+    padding: 5px;
+}
+
+/* flex container */
+#container > div {
+    padding: 10px;
+    border: 1px solid blue;
+}
